@@ -1,0 +1,21 @@
+echo "# Dependências" > .gitignore
+echo "node_modules/" >> .gitignore
+echo "package-lock.json" >> .gitignore
+echo "" >> .gitignore
+echo "# Banco de dados" >> .gitignore
+echo "database.sqlite" >> .gitignore
+echo "*.sqlite" >> .gitignore
+echo "*.sqlite-journal" >> .gitignore
+echo "" >> .gitignore
+echo "# Ambiente" >> .gitignore
+echo ".env" >> .gitignore
+echo ".env.local" >> .gitignore
+echo ".env.production" >> .gitignore
+echo "" >> .gitignore
+echo "# Logs" >> .gitignore
+echo "logs/" >> .gitignore
+echo "*.log" >> .gitignore
+echo "" >> .gitignore
+echo "# Sistema" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "Thumbs.db" >> .gitignore
