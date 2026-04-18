@@ -19,3 +19,4 @@ echo "" >> .gitignore
 echo "# Sistema" >> .gitignore
 echo ".DS_Store" >> .gitignore
 echo "Thumbs.db" >> .gitignore
+node_modules
